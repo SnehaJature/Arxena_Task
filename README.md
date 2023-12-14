@@ -1,8 +1,24 @@
-# React + Vite
+## Flask with React Integration
+This project aims to integrate React into an existing Flask site. The goal is to move the home page, sign-up page, and login page to React components and render them seamlessly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Setup
+1) Clone the Repository:
+   git clone https://github.com/SnehaJature/Arxena_Task.git
+   
+2) Install Dependencies:
+ Install Flask dependencies
+pip install -r requirements.txt
 
-Currently, two official plugins are available:
+ Navigate to the React app folder
+cd react-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Install Node.js dependencies
+npm install
+
+3) Run Flask Server:
+flask run
+
+###Acknowledgments
+Special thanks to the ARXENA company for the opportunity to showcase front-end development skills through the integration of React into this Flask project.
+
+
